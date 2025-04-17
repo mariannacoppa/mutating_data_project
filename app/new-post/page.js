@@ -6,7 +6,6 @@ export default function NewPostPage() {
     const title = formData.get('title');
     const image = formData.get('image');
     const content = formData.get('content');
-
     storePost({
       imageUrl: '',
       title,
